@@ -5,7 +5,9 @@
     "description": "How many times have you got Rickrolled?",
     "action": { "default_popup": "index.html" },
     "permissions": [
-      "storage"
+      "storage",
+      "webNavigation",
+      "tabs"
     ],
     "icons": {
       "16": "icons/icon16.png",
@@ -19,7 +21,7 @@
     },
     "content_scripts" : [
       {
-        "matches": ["https://www.youtube.com/watch?v=dQw4w9WgXcQ"],
+        "matches": ["https://www.youtube.com/*"],
         "js": ["src/scripts/content_script.ts"]
       }
     ]
