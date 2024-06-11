@@ -1,6 +1,10 @@
 # Rickroll Counter Chrome Extension
 Count how many times you got Rickrolled with this extension!
 
+## Install on Chrome
+https://chromewebstore.google.com/detail/rickroll-counter/jpfnlfpkdbpohcjfmfdelapokohclgej
+
+
 ## Built With
 - Vite + CRXJS plugin
 - ReactJS + Typescript
